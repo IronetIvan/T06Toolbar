@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:title="Opcion 1"
         android:id="@+id/menu_uno"/>
     <item android:title="Opcion 2"
         android:id="@+id/menu_dos"/>
     <item android:title="Opcion 3"
-        android:id="@+id/menu_tres"/>
+        android:id="@+id/menu_tres"
+        android:icon="@android:drawable/btn_star"
+        app:showAsAction="ifRoom"/>
 
 </menu>

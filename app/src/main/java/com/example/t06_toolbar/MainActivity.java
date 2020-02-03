@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         instancias();
         personalizarToolbar();
         acciones();
-        toolbar.setTitle("Mi titulo");
+        toolbar.setTitle("Mi barra menu item");
 
     }
 
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu) { //traemos en menu creado en res
         MenuInflater menuInflater = new MenuInflater(getApplicationContext());
         menuInflater.inflate(R.menu.menu_superior, menu);
         return true;
